@@ -1,0 +1,12 @@
+# Application Server Port Details
+# Cloud Stream Binding output destination details
+
+server:
+  port: 8084
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: cloud-stream-topic
